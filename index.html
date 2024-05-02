@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Banking website using Tailwindcss</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -169,48 +168,184 @@
           </div>
         </section>
         <!-- Customer Experience page ends -->
-
-         <!-- BUSINESS PARTNERS page starts -->
+        <!-- BUSINESS PARTNERS page starts -->
          <section class=" w-100[%] bg-[#FCE0EF] mx-auto ">
+          <div class=" mx-auto">
           <h1 class="text-3xl  text-center mb-8 pt-[30px]">BUSINESS PARTNERS</h1>
-          <div class=" mx-[30px] flex flex-wrap justify-center  ">
-              <!-- Image 1 -->
-              <div class="  sm:w-1/2 md:w-1/4 p-2">
-                  <img class="w-[200px] h-[130px]" src="assets\westin.png" alt="Image 1">
-              </div>
-              <!-- Image 2 -->
-              <div class=" sm:w-1/2 md:w-1/4 p-2">
-                  <img class="w-[200px] h-[130px]" src="assets\summit.png" alt="Image 2">
-              </div>
-              <!-- Image 3 -->
-              <div class="   sm:w-1/2 md:w-1/4 p-2">
-                  <img class="w-[200px] h-[130px] " src="assets\holcim.png" alt="Image 3">
-              </div>
-              <!-- Image 4 -->
-              <div class=" sm:w-1/2 md:w-1/4 p-2">
-                  <img class="w-[200px] h-[130px]" src="assets\etv.png" alt="Image 4">
-              </div>
-          </div>
+            <div class="   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 pl-[40px]">
+                <!-- Image 1 -->
+                <div class="p-4 ">
+                    <img src="assets\westin.png" alt="Image 1" class="w-[185px] h-[110px]">
+                </div>
+                <!-- Image 2 -->
+                <div class="p-4">
+                    <img src="assets\summit.png" alt="Image 2" class="w-[185px] h-[110px]">
+                </div>
+                <!-- Image 3 -->
+                <div class="p-4 ">
+                    <img src="assets\holcim.png" alt="Image 3" class="w-[185px] h-[110px]">
+                </div>
+                <!-- Image 4 -->
+                <div class="p-4">
+                    <img src="assets\etv.png" alt="Image 4" class="w-[185px] h-[110px]">
+                </div>
+            </div>
+        </div>
          
-          <div class="flex justify-center items-center mt-[20px]">
+          <div class="flex justify-center items-center mt-[20px] pb-[30px]">
             <div class="w-[13px] h-[13px] bg-[#F467B2] rounded-full mr-4"></div>
             <div class="w-[10px] h-[10px] bg-[#CCCCCC]  rounded-full mr-4"></div>
             <div class="w-[10px] h-[10px] bg-[#CCCCCC]  rounded-full mr-4"></div>
             <div class="w-[10px] h-[10px] bg-[#CCCCCC]  rounded-full"></div>
           </div>
+        </div>
         </section>
           <!-- BUSINESS PARTNERS page ends -->
           <!-- IPDC AT A GLANCE starts -->
-          <section>
-            
+          <section class="w-[100%] ">
+           <div >
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-7">
+                <div class="">
+                    <img src="assets\glance-pic.jpeg" alt="Placeholder Image"
+                        class="w-[618px] h-[610px]  ">
+                </div>
+                <div class="flex flex-col justify-center ml-[40px] ">
+                    <h2 class="text-3xl font-bold ">IPDC AT A GLANCE</h2>
+                    <p class="mt-4 text-[#676767]   leading-[20px] sm: leading-[29px]">IPDC Finance Limited (previously known as "Industrial <br> Promotion and Development Company of Bangladesh <br> Limited") is the first private sector financial institution of <br>the country established in 1981 by a distinguished group of <br> shareholders namely International Finance Corporation <br>(IFC), USA, German Investment and Development <br>Company (DEG), Germany, The Aga Khan Fund for <br> Economic Development (AKFED), Switzerland, <br> Commonwealth Development Corporation (CDC), UK and  <br>the Government of Bangladesh
+                    </p>
+                    <a href="" class="text-[#ED017F] pt-[20px] font-bold">Read More.....</a>
+                  </div>
+            </div>
+        </div>
           </section>
           <!-- IPDC AT A GLANCE ends -->
-          
+          <!-- Our Services starts -->
+           <section class="w-[100%] bg-[#FEF9FC] ">
+            <div class="container mx-auto py-8">
+              <h1 class="text-3xl text-center font-bold mb-4">Our Services</h1>
+              <p class="text-center text-lg text-gray-700 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel feugiat erat tortor eleifend.</p>
+              
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-center">
+                  <div class="w-full">
+                    <img src="assets\card1pic.jpeg" class=" p-[3px] rounded-[9px] w-[254px] h-[365px]" alt="">
+                    <div class="flex">
+                      <h2 class="font-bold">IPDC SAVING <br> SCHEMES</h2>
+                      <img src="assets\arrow.jpeg" class=" mt-[15px] ml-[70px] rounded-full h-[35px] w-[35px]" alt="">
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <img src="assets\card2pic.jpeg" class=" p-[3px] rounded-[9px] w-[254px] h-[365px]" alt="">
+                    <div class="flex">
+                      <h2 class="font-bold">IPDC PERSONAL <br> LOAN</h2>
+                      <img src="assets\arrow.jpeg" class=" mt-[15px] ml-[70px] rounded-full h-[35px] w-[35px]" alt="">
+                    </div>                  </div>
+                  <div class="w-full">
+                    <img src="assets\card3pic.jpeg" class=" p-[3px] rounded-[9px] w-[254px] h-[365px]" alt="">
+                    <div class="flex">
+                      <h2 class="font-bold">IPDC DEPOSIT <br> SCHEMES</h2>
+                      <img src="assets\arrow.jpeg" class=" mt-[15px] ml-[70px] rounded-full h-[35px] w-[35px]" alt="">
+                    </div>                  </div>
+                  <div class="w-full">
+                    <img src="assets\card4pic.jpeg" class=" p-[3px] rounded-[9px] w-[254px] h-[365px]" alt="">
+                    <div class="flex">
+                      <h2 class="font-bold">IPDC AUTO <br> LOAN</h2>
+                      <img src="assets\arrow.jpeg" class=" mt-[15px] ml-[70px] rounded-full h-[35px] w-[35px]" alt="">
+                    </div>                  </div>
+              </div>
+          </div>
+           </section>
+          <!-- Our Services ends -->
 
+         <!-- Our best results for the year page starts -->
+         <section class=" w-[100%] py-8 bg-white sm:py-10 lg:py-16">
+          <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-2xl font-bold  sm:text-3xl xl:text-4xl">
+              Our best results for the year</h2>
+            <p class="  text-[#999999] sm:mt-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus <br> mattis vel feugiat erat tortor eleifend.            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4  mt-[10px]  sm:mt-16  sm:gap-x-12 gap-y-12  md:gap-0 xl:mt-10"">
+              <!-- Column 1 -->
+              <div class=" p-4">
+                <h2 class="text-[30px] font-bold text-[#ED017F] " >57.6 bn</h2>
+           
+            <p class="pt-[7px] text-[#676767]">LOAN PORTFOLIO</p>
+        </div>
+      
+              <!-- Column 2 -->
+              <div class=" p-4">
+    
+                <h2 class="text-[30px] font-bold " >0.95%</h2>
+           
+            <p class="pt-[7px] text-[#676767]">CLASSIFIED LOAN <br>PORTFOLIO</p>
+        </div>
+      
+              <!-- Column 3 -->
+              <div class=" p-4">
+    
+                <h2 class="text-[30px] font-bold " >388.5%</h2>
+           
+                <p class="pt-[7px] text-[#676767]">CLASSIFIED LOAN <br>Coverage</p>
+        </div>
+      
+              <!-- Column 4 -->
+              <div class=" p-4">
+    
+                <h2 class="text-[30px] font-bold " >50.4 bn</h2>
+           
+            <p class="pt-[7px] text-[#676767]">DEPOSIT</p>
+        </div>
+         <!-- Column 5-->
+         <div class=" p-4">
+    
+          <h2 class="text-[30px] font-bold " >6.1 bn</h2>
+           
+            <p class="pt-[7px] text-[#676767]">SHAREHOLDERS <br>EQUITY</p>
+  </div>
+      <!-- Column 6 -->
+      <div class=" p-4">
+    
+         <h2 class="text-[30px] font-bold " >18.51%</h2>
+           
+        <p class="pt-[7px] text-[#676767]">CAPITAL <br>ADEQUACY RATIO</p>
+</div>
+    <!-- Column 7 -->
+    <div class=" p-4">
+    
+      <h2 class="text-[30px] font-bold " >8.5 bn</h2>
+           
+            <p class="pt-[7px] text-[#676767]">MARKET <br> CAPITALIZATION</p>
+</div>
+  <!-- Column 8 -->
+  <div class=" p-4">
+    
+    <h2 class="text-[30px] font-bold " >AAA</h2>
+           
+    <p class="pt-[7px] text-[#676767]">CREDIT RATING</p>
+</div>
+             
+          </div>
+          </div>
+        </section>
+        <!-- Our best results for the year page ends -->
          
-        
-         
-         
+         <!-- Newsletter starts  -->
+          <section class="w-[100%] bg-[#FEF9FC]">
+           <div class="mx-auto">
+             <div class="text-center ">
+              <h1 class=" pt-[20px] font-bold text-[40px]">Newsletter</h1>
+              <p class="text-[#999999]">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Eget ac quis aliquam arcu lacus.</p>
+             </div>
+            <div class="max-w-[600px] px-[40px] sm: px-[10px] mx-auto mt-[30px]">
+              <form action="" class=" grid sm:grid-cols-[70%_auto]   sm:gap-[20px] gap-[10px] sm: grid-cols-1" >
+                <input type="text" placeholder="Email address" class=" p-[10px]  border-[1px] border-[#999999]  ">
+                <button class="bg-[#ED017F] text-white text-[20px] font-semibold  p-[10px] rounded-[5px]  ">SUBSCRIBE</button>
+              </form>
+           </div>
+          </section>
+          <!-- Newsletter ends  -->
 
 </body>
 </html>
